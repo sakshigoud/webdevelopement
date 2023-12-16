@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga Classes</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+   <style>
+    
+    body{ 
+        font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+        color:black;
+        margin:0px;
+        padding: 0px;
+        background: url('img/yoga1.jpg');   
+    }
+    .left{
+        display: inline-block;
+        position: absolute;
+        left:5px; 
+        top: 7px;
+
+    }
+    .left img{
+        width:102px;
+        margin: 2px;
+    }
+    .left div{
+        text-align: center;
+        font-size: 17px;
+    }
+    .mid{
+        display: block;
+        width: 48%;
+        margin: 8px auto;
+        padding: 9px;
+        border-radius: 6px;
+    }
+    .right{
+        position: absolute;
+        right: 33px; 
+        top:11px;
+        display: inline-block;
+    }
+    .navbar{
+         display: inline-block;   
+    }
+    .navbar li{
+        display: inline-block;
+        
+    }
+    .navbar li a{
+        color: black;
+        text-decoration: none;
+        padding: 24px;
+        margin: auto;
+        font-size: 26px;
+    }
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+        color:grey;
+    }
+    .btn{
+        font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+        margin: 4px;
+        padding: 4px;
+        background-color:lightslategrey;
+        border-radius: 10px;
+        font-size: 17px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color:rgba(255, 255, 255, 0.992);
+
+    }
+    .container{
+        margin: 24px 40px 139px 900px;
+    padding: 129px 24px;
+    width: 20%;
+    border-radius: 17px;
+}
+.form-group input{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+    
+    display: block;
+    width: 250px;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin:3px auto;
+    font-size: 15px;
+}
+    .container h2{
+            text-align: center;
+    }
+    .container button{
+         display: block;
+         width: 25%;
+         margin: auto;
+    }
+   </style>
+<body>
+   <header class="header">
+
+    <div class="left">
+        <img src="img/logo3.jpg" alt="">  
+    <div>ONLINE YOGA</div>
+    </div>
+    
+    <div class="mid">
+        <ul class="navbar">
+            <li><a href="#" > Home</a></li>
+            <li><a href="#"  >About us </a></li>
+            <li><a href="#"  >yoga sessions</a></li>
+            <li><a href="#"  >Contact us</a></li>
+        </ul>
+    </div>
+    <div class="right">
+    <button class="btn">Contact us</button>
+    <button class="btn">Email us</button>
+    </div>
+    <div class="container">
+        <h2> Join us now</h2>
+        <form action="no.php">
+            <div class="form-group">
+        <input type="text" name="" placeholder="Enter your name">
+    </div>
+    <div class="form-group">
+        <input type="char" name="" placeholder="Enter your gender">
+    </div>
+    <div class="form-group">
+        <input type="number" name="" placeholder="Enter your age">
+    </div>
+    <div class="form-group">
+        <input type="number" name="" placeholder="Enter your phone number">
+    </div>
+  <button class="btn">Submit</button>
+        </form>
+    </div>
+   </header>
+</body>
+</html>
